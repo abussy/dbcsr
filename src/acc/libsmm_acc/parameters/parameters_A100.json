@@ -3043,7 +3043,7 @@
 {"m": 45, "n": 45, "k": 45, "tile_m": 6, "tile_n": 6, "w": 16, "v": 42, "threads": 64, "grouping": 16, "minblocks": 1, "algorithm": "largeDB2", "perf": 13825.8, "source": "autotuned"},
 {"m": 55, "n": 55, "k": 32, "tile_m": 7, "tile_n": 7, "w": 12, "v": 54, "threads": 64, "grouping": 16, "minblocks": 1, "algorithm": "largeDB2", "perf": 14676.4, "source": "autotuned"},
 {"m": 64, "n": 64, "k": 64, "tile_m": 4, "tile_n": 8, "w": 12, "v": 36, "threads": 128, "grouping": 16, "minblocks": 1, "algorithm": "largeDB2", "perf": 15599.1, "source": "autotuned"},
-{"m": 72, "n": 72, "k": 72, "tile_m": 9, "tile_n": 5, "w": 8, "v": 72, "threads": 128, "grouping": 16, "minblocks": 1, "algorithm": "largeDB2", "perf": 15462.2, "source": "autotuned"}
+{"m": 72, "n": 72, "k": 72, "tile_m": 9, "tile_n": 5, "w": 8, "v": 72, "threads": 128, "grouping": 16, "minblocks": 1, "algorithm": "largeDB2", "perf": 15462.2, "source": "autotuned"},
 {"m": 76, "n": 30, "k": 30, "tile_m": 5, "tile_n": 8, "w": 10, "v": 26, "threads": 64, "grouping": 16, "minblocks": 4, "algorithm": "largeDB2", "perf": 11490.4, "source": "autotuned"},
 {"m": 76, "n": 30, "k": 76, "tile_m": 5, "tile_n": 8, "w": 20, "v": 28, "threads": 64, "grouping": 16, "minblocks": 2, "algorithm": "largeDB2", "perf": 15036.8, "source": "autotuned"},
 {"m": 76, "n": 76, "k": 30, "tile_m": 7, "tile_n": 7, "w": 8, "v": 72, "threads": 128, "grouping": 16, "minblocks": 1, "algorithm": "largeDB2", "perf": 15328.0, "source": "autotuned"},
