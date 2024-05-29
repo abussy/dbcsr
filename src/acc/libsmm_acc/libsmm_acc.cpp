@@ -447,7 +447,7 @@ int libsmm_acc_transpose_d(const int* trs_stack, int offset, int stack_size, dou
 //===========================================================================
 extern "C" int libsmm_acc_transpose(const int* trs_stack, int offset, int stack_size, void* buffer, libsmm_acc_data_t datatype,
   int m, int n, int max_kernel_dim, void* stream) {
-  if (max_kernel_dim == 1) std::cout<<"max_kernel_dim==1"<<std:endl;
+  if (max_kernel_dim == 1) std::cout<<"max_kernel_dim==1"<<std::endl;
   if (datatype != dbcsr_type_real_8) return 0; // transpose not needed
   if (m > max_kernel_dim || n > max_kernel_dim) return 0; // maximum size over any dimension
   return libsmm_acc_transpose_d(trs_stack, offset, stack_size, (double*)buffer, m, n, *((ACC_DRV(stream)*)stream));
