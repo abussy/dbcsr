@@ -18,7 +18,7 @@
 
 #include "../acc_libsmm.h"
 
-#define MAX_BLOCK_DIM 80
+#define MAX_BLOCK_DIM 1
 
 typedef int (*KernelLauncher)(const int* param_stack_dev, int stack_size, ACC_DRV(stream) stream, int m, int n, int k,
   const double* a_data, const double* b_data, double* c_data);
