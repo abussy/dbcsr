@@ -174,7 +174,7 @@ MODULE dbcsr_config
    TYPE(dbcsr_config_type), PROTECTED, SAVE :: dbcsr_cfg = dbcsr_config_type() ! defaults
 
    ! Max dimension for any block dimension
-   INTEGER, PARAMETER :: max_kernel_dim = 80
+   INTEGER, PARAMETER :: max_kernel_dim = 1
    ! Accelerator active device, default to -1, i.e. no device
    INTEGER, PARAMETER :: default_accdrv_active_device_id = -1
    INTEGER :: accdrv_active_device_id = default_accdrv_active_device_id
