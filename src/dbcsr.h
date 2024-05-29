@@ -10,6 +10,8 @@
 #ifndef DBCSR_H
 #define DBCSR_H
 
+//THIS IS A TEST VERSION FOR CUBLAS
+
 #include <mpi.h>
 #include <stdbool.h> /* we need bool from C99 */
 #:include 'data/dbcsr.fypp'
