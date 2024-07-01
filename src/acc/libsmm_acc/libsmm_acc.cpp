@@ -199,7 +199,7 @@ kernel_map_iterator add_kernel_handle_to_jitted_kernels(
   kernel_map_iterator kernel_it = kernel_handles.end();
 
   // Check whether autotuned parameters are given for this kernel, and if so, retrieve them
-  if (ht.find(h_mnk) != ht.end()) {
+  if (ht.find(h_mnk) != ht.end() && false) {
     // Retrieve launching parameters
     const KernelParameters params = ht.at(h_mnk);
     libsmm_acc_algo algo = libsmm_acc_algo(params[0]); // enum {largeDB1, largeDB2, medium, small, tiny}
