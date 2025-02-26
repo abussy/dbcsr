@@ -213,10 +213,10 @@
     "gfx942" : {
         "GPU_Architecture": "CDNA3",
         "Product_Names": ["Instinct MI300"],
-        "Threads_/_Warp" : 32,
+        "Threads_/_Warp" : 64,
         "Warps_/_Multiprocessor": 32,
-        "Threads_/_Multiprocessor": 1024,
-        "Thread_Blocks_/_Multiprocessor": 32,
+        "Threads_/_Multiprocessor": 2048,
+        "Thread_Blocks_/_Multiprocessor": 16,
         "Max_Thread_Block_Size": 1024,
         "Max_Shared_Memory_/_Block_(bytes)": 64000,
         "Shared_Memory_/_Multiprocessor_(bytes)": 64000,
